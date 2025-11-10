@@ -14,7 +14,7 @@
   "license": "ISC",
   "type": "module",
   "engines": {
-    "node": ">=20.9.0"
+    "node": "18.x"
   },
   "dependencies": {
     "@ai-sdk/google": "^2.0.30",
