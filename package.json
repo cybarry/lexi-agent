@@ -26,8 +26,13 @@
     "zod": "^4.1.12"
   },
   "devDependencies": {
-    "@types/node": "^24.10.0",
     "mastra": "^0.18.0",
-    "typescript": "^5.9.3"
+    "@types/node": "^20.14.2",
+    "typescript": "^5.4.5"
+  },
+  "pnpm": {
+    "overrides": {
+      "diff-match-patch": "1.0.5"
+    }
   }
 }
