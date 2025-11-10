@@ -14,7 +14,7 @@
   "license": "ISC",
   "type": "module",
   "engines": {
-    "node": "18.x"
+    "node": ">=20.9.0"
   },
   "dependencies": {
     "@ai-sdk/google": "^2.0.30",
@@ -29,5 +29,10 @@
     "@types/node": "^24.10.0",
     "mastra": "^0.18.0",
     "typescript": "^5.9.3"
+  },
+  "pnpm": {
+    "overrides": {
+      "diff-match-patch": "1.0.5"
+    }
   }
 }
