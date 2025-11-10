@@ -29,10 +29,5 @@
     "@types/node": "^24.10.0",
     "mastra": "^0.18.0",
     "typescript": "^5.9.3"
-  },
-  "pnpm": {
-    "overrides": {
-      "diff-match-patch": "1.0.5"
-    }
   }
 }

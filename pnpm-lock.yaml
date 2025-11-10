@@ -4,16 +4,13 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  diff-match-patch: 1.0.5
-
 importers:
 
   .:
     dependencies:
       '@ai-sdk/google':
         specifier: ^2.0.30
-        version: 2.0.30(zod@4.1.12)
+        version: 2.0.31(zod@4.1.12)
       '@mastra/core':
         specifier: ^0.24.0
         version: 0.24.0(openapi-types@12.1.3)(react@19.2.0)(zod@4.1.12)
@@ -73,8 +70,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/google@2.0.30':
-    resolution: {integrity: sha512-ipwFgP7NLpGhq/qUrmnb+rZzG5VftU4tDzZq+vLp4L8xtgMeQlG3CLF7BBU8ioV6I9EL84CbSEbzWkLQ/6TxuQ==}
+  '@ai-sdk/google@2.0.31':
+    resolution: {integrity: sha512-wOlUkrXHuL73sXPZd251+30BQ378zn2Zo8pW+Hq+8d9FmSJpZXOSK8cmYle1SE5ZWe/TS+eSj3eBCZ6AW+q2EA==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -109,8 +106,8 @@ packages:
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
 
-  '@ai-sdk/provider-utils@3.0.16':
-    resolution: {integrity: sha512-lsWQY9aDXHitw7C1QRYIbVGmgwyT98TF3MfM8alNIXKpdJdi+W782Rzd9f1RyOfgRmZ08gJ2EYNDhWNK7RqpEA==}
+  '@ai-sdk/provider-utils@3.0.17':
+    resolution: {integrity: sha512-TR3Gs4I3Tym4Ll+EPdzRdvo/rc8Js6c4nVhFLuvGLX/Y4V9ZcQMa/HTiYsHEgmYrf1zVi6Q145UEZUfleOwOjw==}
     engines: {node: '>=18'}
     peerDependencies:
       zod: ^3.25.76 || ^4.1.8
@@ -1555,8 +1552,8 @@ packages:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
     engines: {node: '>=8'}
 
-  browserslist@4.27.0:
-    resolution: {integrity: sha512-AXVQwdhot1eqLihwasPElhX2tAZiBjWdJ9i/Zcj2S6QYIjkx62OKSfnobkriB81C3l4w0rVy3Nt4jaTBltYEpw==}
+  browserslist@4.28.0:
+    resolution: {integrity: sha512-tbydkR/CxfMwelN0vwdP/pLkDwyAASZ+VfWm4EOwlB6SWhx1sYnWLqo8N5j0rAzPfzfRaxt0mM/4wPU/Su84RQ==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
@@ -3011,10 +3008,10 @@ snapshots:
       '@ai-sdk/provider-utils': 3.0.12(zod@4.1.12)
       zod: 4.1.12
 
-  '@ai-sdk/google@2.0.30(zod@4.1.12)':
+  '@ai-sdk/google@2.0.31(zod@4.1.12)':
     dependencies:
       '@ai-sdk/provider': 2.0.0
-      '@ai-sdk/provider-utils': 3.0.16(zod@4.1.12)
+      '@ai-sdk/provider-utils': 3.0.17(zod@4.1.12)
       zod: 4.1.12
 
   '@ai-sdk/openai-compatible@1.0.22(zod@4.1.12)':
@@ -3050,7 +3047,7 @@ snapshots:
       eventsource-parser: 3.0.6
       zod: 4.1.12
 
-  '@ai-sdk/provider-utils@3.0.16(zod@4.1.12)':
+  '@ai-sdk/provider-utils@3.0.17(zod@4.1.12)':
     dependencies:
       '@ai-sdk/provider': 2.0.0
       '@standard-schema/spec': 1.0.0
@@ -3139,7 +3136,7 @@ snapshots:
     dependencies:
       '@babel/compat-data': 7.28.5
       '@babel/helper-validator-option': 7.27.1
-      browserslist: 4.27.0
+      browserslist: 4.28.0
       lru-cache: 5.1.1
       semver: 6.3.1
 
@@ -4786,13 +4783,13 @@ snapshots:
     dependencies:
       fill-range: 7.1.1
 
-  browserslist@4.27.0:
+  browserslist@4.28.0:
     dependencies:
       baseline-browser-mapping: 2.8.25
       caniuse-lite: 1.0.30001754
       electron-to-chromium: 1.5.249
       node-releases: 2.0.27
-      update-browserslist-db: 1.1.4(browserslist@4.27.0)
+      update-browserslist-db: 1.1.4(browserslist@4.28.0)
 
   builtins@5.1.0:
     dependencies:
@@ -6056,9 +6053,9 @@ snapshots:
       pathe: 2.0.3
       picomatch: 4.0.3
 
-  update-browserslist-db@1.1.4(browserslist@4.27.0):
+  update-browserslist-db@1.1.4(browserslist@4.28.0):
     dependencies:
-      browserslist: 4.27.0
+      browserslist: 4.28.0
       escalade: 3.2.0
       picocolors: 1.1.1
 
