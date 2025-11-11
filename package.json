@@ -5,18 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "mastra dev",
+    "prebuild": "rm -rf .mastra/output",
     "build": "mastra build",
-    "start": "mastra start"
+    "start": "mastra start",
+    "dev": "mastra dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "engines": {
-    "node": ">=20.9.0"
+    "node": "20.x"
   },
   "dependencies": {
+    "20": "^3.1.9",
     "@ai-sdk/google": "^2.0.30",
     "@mastra/core": "^0.24.0",
     "@mastra/evals": "^0.14.3",
