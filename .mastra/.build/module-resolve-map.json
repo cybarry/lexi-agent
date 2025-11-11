@@ -1,1 +1,10 @@
-{}
+{
+  "/home/cybarry/Documents/Cybarry Solutions/2025 Q3/HNG13/lexi-agent/.mastra/.build/typescript.mjs": {},
+  "/home/cybarry/Documents/Cybarry Solutions/2025 Q3/HNG13/lexi-agent/.mastra/.build/@mastra-loggers.mjs": {
+    "pino": "/home/cybarry/Documents/Cybarry Solutions/2025 Q3/HNG13/lexi-agent/node_modules/.pnpm/@mastra+loggers@0.10.19_@mastra+core@0.24.0_openapi-types@12.1.3_react@19.2.0_zod@4.1.12_/node_modules/@mastra/loggers/dist/index.js",
+    "pino-pretty": "/home/cybarry/Documents/Cybarry Solutions/2025 Q3/HNG13/lexi-agent/node_modules/.pnpm/@mastra+loggers@0.10.19_@mastra+core@0.24.0_openapi-types@12.1.3_react@19.2.0_zod@4.1.12_/node_modules/@mastra/loggers/dist/index.js"
+  },
+  "/home/cybarry/Documents/Cybarry Solutions/2025 Q3/HNG13/lexi-agent/.mastra/.build/@mastra-libsql.mjs": {
+    "@libsql/client": "/home/cybarry/Documents/Cybarry Solutions/2025 Q3/HNG13/lexi-agent/node_modules/.pnpm/@mastra+libsql@0.16.2_@mastra+core@0.24.0_openapi-types@12.1.3_react@19.2.0_zod@4.1.12_/node_modules/@mastra/libsql/dist/index.js"
+  }
+}
