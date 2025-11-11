@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "mastra dev",
+    "build": "mastra build",
     "start": "mastra start"
   },
   "keywords": [],
@@ -22,7 +23,6 @@
     "@mastra/libsql": "^0.16.2",
     "@mastra/loggers": "^0.10.19",
     "@mastra/memory": "^0.15.11",
-    "@opentelemetry/auto-instrumentations-node": "^0.67.0",
     "diff-match-patch": "1.0.5",
     "zod": "^4.1.12"
   },
